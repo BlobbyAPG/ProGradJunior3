@@ -1,0 +1,106 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+h1
+{
+    text-align: center;
+}
+#heading 
+{
+    font-size: 4em;
+    text-align: center;
+}
+.emoji-face
+{
+    background-color: khaki;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px black;
+    position: relative;
+    float: left;
+    margin: 0 6px 0px 0px;
+}
+.eye1
+{
+    height: 11px;
+    width: 12px;
+    background-color: #995710;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border-radius: 50%;
+}
+.eye2
+{
+    height: 11px;
+    width: 12px;
+    background-color: #995710;
+    position: absolute;
+    top: 30px;
+    left: 70px; 
+    border-radius: 50%;
+}
+.mouth
+{
+    background-color: #995710;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    overflow: hidden;
+}
+.tongue
+{
+    background-color: #e25d5d;
+    width: 33px;
+    height: 38px;
+    border-radius: 40%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.mouth-shock
+{
+    background-color: #995710;
+    height: 25px;
+    width: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 39px;
+}
+.mouth-speechless
+{
+    background-color: #995710;
+    height: 5px;
+    width: 75px;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+p
+{
+    font-size: 1.5em;
+}
+.write-up
+{
+    background-color: wheat;
+    margin: 12% 20%;
+    padding: 5% 10%;
+    border-radius: 20px;
+}
+.emoji-face:hover
+{
+    transform: scale(1.2);
+}
